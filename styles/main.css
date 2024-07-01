@@ -66,7 +66,7 @@ nav ul {
     color: rgb(83, 73, 73);
 }
 .header-icons ul li a:hover {
-    color: rgb(25, 25, 92);
+    color: blue;
 }
 
 body {
@@ -121,8 +121,8 @@ body {
     max-width: fit-content;
 }
 .section-container-list {
-     align-content: center;
-    text-align: center;
+    align-content: center;
+    
 }
 
 .section-container-list ul {
@@ -134,15 +134,31 @@ body {
 }
 #cashofferlist li {
     font-size: 35px;
+    padding-top: 25px;
 }
 .section-container-list li {
-    padding-top: 25px;
+    
     text-transform: uppercase;
 }
 footer {
     border-top: solid;
 }
+#footer-menu li a {
+    text-decoration: none;
+    color: rgb(83, 73, 73);
+    font-size: 20px;
+}
+#footer-menu li a:hover {
+    color: blue;
+}
 #socialmediafooter li {
+    text-align: center;
+}
+#socialmediafooter li a {
     color: rgb(83, 73, 73);
     font-size: 30px;
+    
+}
+#socialmediafooter li a:hover {
+    color: blue;
 }
