@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  header {
+    background-color: rgb(250, 249, 249);
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    
+} 
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-box {
+   width: 100px;
+}
+nav ul {
+    list-style: none;
+    border-bottom: solid;
+    border-color: gray;
+    
+    
+  }
+  
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+  
+  nav ul li a {
+      color: rgb(25, 25, 92);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 25px;
+      
+  }
+  nav ul li a:hover {
+      color: gray;
+  }
+.header-icons-container {
+    width: 100%;
+  }
+.header-icons ul {
+    padding-top: 20px;
+    text-align: right;
+}
+.header-icons ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.header-icons ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(83, 73, 73);
+}
+.header-icons ul li a:hover {
+    color: rgb(25, 25, 92);
+}
+
+body {
+    font-family: Anton SC;
+    width: 100%;
+
+    color: rgb(25, 25, 92);
+  
+    font-size: 20px;
+    background-size: contain;
+  }
+.header-image {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.header-image img {
+    width: 100%;    
+  }
+.center-section {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.section {
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(25, 25, 92);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4em;
+    padding-bottom: 50px;
+}
+.section-3col {
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(25, 25, 92);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    column-gap: 1em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-container {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-container image {
+    max-width: fit-content;
+}
+.section-container-list {
+     align-content: center;
+    text-align: center;
+}
+
+.section-container-list ul {
+    list-style: none;
+}
+#cashofferlist {
+    list-style: circle;
+    text-align: left;
+}
+#cashofferlist li {
+    font-size: 35px;
+}
+.section-container-list li {
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+footer {
+    border-top: solid;
+}
+#socialmediafooter li {
+    color: rgb(83, 73, 73);
+    font-size: 30px;
+}
