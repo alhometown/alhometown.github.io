@@ -98,7 +98,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 4em;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 .section-3col {
     width: 90%;
@@ -108,7 +108,7 @@ body {
     grid-template-columns: 1fr 5fr 1fr;
     column-gap: 1em;
     padding-top: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
 }
 
 .section-container {
@@ -285,4 +285,78 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+.about h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+.howitworks h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.howitworks h2 {
+    color: gray;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+#howitworkslist {
+    list-style: decimal;
+    text-align: left;
+}
+#howitworkslist li {
+    font-size: 25px;
+    padding: 10px 0;
+}
+#contactbtn {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.whychooseus h1 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+}
+.faq h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.faq h2 {
+    color: gray;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.faqh2 {
+    width: 60%;
+    margin: 0 auto;
+}
+.questions {
+    width: 90%;
+    margin: 0 auto;
+}
+.questions p {
+    color: gray;
+}
+.btnbox {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#contactbtnfaq {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
 }
