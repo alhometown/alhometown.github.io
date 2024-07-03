@@ -121,6 +121,7 @@ body {
     align-content: center;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 .section-container image {
     max-width: fit-content;
@@ -138,7 +139,6 @@ body {
     text-align: left;
 }
 #cashofferlist li {
-    
     padding-top: 25px;
 }
 .section-container-list li {
@@ -373,7 +373,7 @@ img {
 
 @media only screen and (max-width:600px) {
     body {
-      font-size: 3vw;
+      font-size: 3.5vw;
     }
     h1 {
         font-size: 7vw;
@@ -384,5 +384,17 @@ img {
     }
     .section {
         display: table-cell;
+        padding-bottom: 15px;
+    }
+    .section-3col {
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+    #footer-menu, #socialmediafooter {
+        display: none;
+    }
+    #cashofferlist li {
+        padding-top: 0;
+        padding-bottom: 15px;
     }
   }
